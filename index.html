@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="name">
+        <form>
+          <div class="form-group">
+            <label for="person">Name:</label>
+            <input id="person" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+
+      <div id="food">
+        <form>
+          <div class="form-group">
+            <label for="favfood">Favorite Foods:</label>
+            <input id="favfood" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+
+      <div id="music">
+        <form>
+          <div class="form-group">
+            <label for="favmusic">Favorite music:</label>
+            <input id="favmusic" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+
+      <form id="survey-form" action="index.html" method="post">
+
+        <button type="submit" class="btn">submit</button>
+
+      </form>
+
+      <div id="story">
+        <p>your name is:<span class="person"></span> <br> your favorite food is <span class="favfood"></span> <br> your favorite music is: <span class="favmusic"></span></p>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
